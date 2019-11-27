@@ -9,7 +9,7 @@ export const productCatalog = (products, categories, value) => {
     const { name, id } = item;
     if (id == value) {
       var categoryId = item.name;
-      console.log(categoryId);
+      console.log(categoryId); // vypíše názov ID
     }
   });
 };
